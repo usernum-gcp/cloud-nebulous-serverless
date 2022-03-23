@@ -23,7 +23,7 @@ const TRANSLATE = new TranslationServiceClient();
 
 const PORT = process.env.PORT || 8080;
 const SOURCE = ['en', 'English'];
-const TARGET = ['es', 'Spanish'];
+const TARGET = ['uk', 'Ukraine'];
 let parent;
 TRANSLATE.getProjectId().then(result => {
     parent = `projects/${result}`;
